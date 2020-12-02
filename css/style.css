@@ -1,0 +1,93 @@
+/* GENERAL */
+
+body {
+    font-family: Campton;
+}
+
+/* LOGIN FORM */
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #0074C9;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 20%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 70%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-blue{
+    background-color: #0074C9 !important;
+    color: #fff;
+}
+
+.error-msg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+/* MODAL NEW POST */
+
+#overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0.0, 0.0, 0.0, 0.6);
+    z-index: 1;
+}
